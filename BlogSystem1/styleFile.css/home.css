@@ -1,0 +1,99 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(115deg, #267c84 10%, #4a0a67 90%);
+  background-attachment: fixed;
+}
+
+
+/* .div1{
+   
+} */
+.PBS {
+  position: absolute;
+  left: 82px;
+  top: 52px;
+  font-size: 47px;
+  font-family: fantasy;
+  letter-spacing: 6px;
+}
+
+.onetwo {
+  position: absolute;
+  right: 82px;
+  top: 52px;
+  border-radius: 50px;
+}
+
+.BS {
+  text-decoration: none;
+  font-size: 57px;
+  background: -webkit-linear-gradient(#4a0a67, #132a2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.deleteB {
+  color: white;
+  background: linear-gradient(115deg, #267c84 10%, #4a0a67 90%);
+  width: 14%;
+  height: 78%;
+  cursor: pointer;
+  font-size: 100%;
+  letter-spacing: 3px;
+  font-family: cursive;
+  border: 0px solid #887d95;
+  border-radius: 18px;
+
+
+  text-decoration: none;
+
+  text-align: center;
+  padding-top: 4px;
+  box-shadow: 1px 1px 6px -1px #267c84;
+}
+
+.addB {
+  color: white;
+  background: linear-gradient(115deg, #267c84 10%, #4a0a67 90%);
+  width: 14%;
+  height: 78%;
+  cursor: pointer;
+  font-size: 100%;
+  letter-spacing: 3px;
+  font-family: cursive;
+  border: 0px solid #887d95;
+  border-radius: 18px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 4px;
+  box-shadow: 1px 1px 6px -1px #4a0a67;
+}
+
+.addB:hover,
+.deleteB:hover {
+  background: linear-gradient(115deg, #4a0a67 10%, #267c84 90%);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+.logbtn {
+  background: none;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 100%;
+  letter-spacing: 3px;
+  font-family: cursive;
+}

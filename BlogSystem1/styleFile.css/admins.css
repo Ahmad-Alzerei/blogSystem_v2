@@ -1,0 +1,33 @@
+html,
+body,
+.intro {
+    height: 100%;
+    background: linear-gradient(115deg, #267c84 10%, #4a0a67 90%);
+}
+
+
+table td,
+table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+tbody td {
+    font-weight: 500;
+    color: #999999;
+}
+
+.cl1 {
+    margin: 30px 0px 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+.cl2 {
+    margin-right: 25px;
+}
